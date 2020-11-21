@@ -26,7 +26,8 @@ void inicializarSelecao(Selecao *selecao){
 }
 
 void lerSelecao(Selecao *selecao){
-	printf("\n Digite o codigo ou nome do produto: ");
+//	printf("\n Digite o codigo ou nome do produto: ");
+	printf("\n Digite o codigo do produto: ");
 	fflush(stdin);
 	fgets(selecao->valor, MAX, stdin);
 	selecao->valor[strlen(selecao->valor) - 1] = '\0';
