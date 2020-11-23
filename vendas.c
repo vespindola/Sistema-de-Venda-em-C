@@ -135,7 +135,7 @@ void exibirListaVenda(Venda *venda){
 		printf("\n QUANTIDADE: %i",venda->selecao[i].quantidade);
 	}
 	printf("\n\n VALOR TOTAL: %.2f",venda->total);
-	printf("\n DATA VENDA: 14/11/2020");
+	printf("\n DATA VENDA: 23/11/2020");
 	if(venda->pagamento == 0){
 		printf("\n\n Pagamento pendente \n");
 	}else{
