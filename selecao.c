@@ -51,12 +51,12 @@ void lerSelecao(Selecao *selecao){
 }
 
 void exibirSelecao(Selecao *selecao){
-	printf("\n CODIGO: %s", selecao->valor); 
- 	printf("\n NOME: %s",selecao->produto.nome);
- 	printf("\n DESCRICAO: %s",selecao->produto.descricao);
- 	printf("\n CATEGORIA: %s",selecao->produto.categoria);
- 	printf("\n VALOR: %f",selecao->produto.preco);
- 	printf("\n QUANTIDADE:  %i", selecao->quantidade);
+	printf("\n CODIGO     : %s", selecao->valor); 
+ 	printf("\n NOME       : %s",selecao->produto.nome);
+ 	printf("\n DESCRICAO  : %s",selecao->produto.descricao);
+ 	printf("\n CATEGORIA  : %s",selecao->produto.categoria);
+ 	printf("\n VALOR      : %f",selecao->produto.preco);
+ 	printf("\n QUANTIDADE : %i", selecao->quantidade);
 }
 
 void cadastrarSelecao(){

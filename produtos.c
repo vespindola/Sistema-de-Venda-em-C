@@ -59,12 +59,12 @@ void InicializarProduto(Produto *produto){
  
  //IMPLEMENTACAO DA FUNCAO EXIBICAO
  void ExibirProduto(Produto *produto){
- 	printf ("\n Codigo: %s", produto->cod); 
- 	printf ("\n Nome: %s", produto->nome);
-	printf ("\n Descricao: %s", produto->descricao);
-	printf ("\n Categoria: %s", produto->categoria);
-	printf ("\n Estoque: %i",produto->estoque);
-	printf ("\n Preco: %.2f",produto->preco);
+ 	printf ("\n Codigo    : %s", produto->cod); 
+ 	printf ("\n Nome      : %s", produto->nome);
+	printf ("\n Descricao : %s", produto->descricao);
+	printf ("\n Categoria : %s", produto->categoria);
+	printf ("\n Estoque   : %i",produto->estoque);
+	printf ("\n Preco     : %.2f",produto->preco);
  }
 
 ////IMPLEMENTACAO DA FUNCAO CADASTRO

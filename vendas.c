@@ -114,11 +114,11 @@ void exibirProdVenda(Venda *venda){
 	int i;
 	
 	for(i = 0; i < venda->tamanho; i++){
-		printf("\n\n CODIGO: %s",venda->selecao[i].produto.cod);
-		printf("\n NOME: %s",venda->selecao[i].produto.nome);
-		printf("\n DESCRICAO: %s",venda->selecao[i].produto.descricao);
-		printf("\n PRECO: %.2f",venda->selecao[i].produto.preco);
-		printf("\n QUANTIDADE: %i",venda->selecao[i].quantidade);
+		printf("\n\n CODIGO     : %s",venda->selecao[i].produto.cod);
+		printf("\n NOME       : %s",venda->selecao[i].produto.nome);
+		printf("\n DESCRICAO  : %s",venda->selecao[i].produto.descricao);
+		printf("\n PRECO      : %.2f",venda->selecao[i].produto.preco);
+		printf("\n QUANTIDADE : %i",venda->selecao[i].quantidade);
 	}
 }
 void exibirListaVenda(Venda *venda){
@@ -126,16 +126,16 @@ void exibirListaVenda(Venda *venda){
 	printf("\n CODIGO VENDA: %s", venda->cod);
 	printf("\n\n CLIENTE: %s", venda->nome);
 	for(i = 0; i < venda->tamanho; i++){
-		printf("\n\n CODIGO: %s",venda->selecao[i].produto.cod);
-		printf("\n NOME: %s",venda->selecao[i].produto.nome);
-		printf("\n DESCRICAO: %s",venda->selecao[i].produto.descricao);
-		printf("\n CATEGORIA: %s",venda->selecao[i].produto.categoria);
-		printf("\n ESTOQUE: %i",venda->selecao[i].produto.estoque);
-		printf("\n PRECO: %.2f",venda->selecao[i].produto.preco);
-		printf("\n QUANTIDADE: %i",venda->selecao[i].quantidade);
+		printf("\n\n CODIGO     : %s",venda->selecao[i].produto.cod);
+		printf("\n NOME       : %s",venda->selecao[i].produto.nome);
+		printf("\n DESCRICAO  : %s",venda->selecao[i].produto.descricao);
+		printf("\n CATEGORIA  : %s",venda->selecao[i].produto.categoria);
+		printf("\n ESTOQUE    : %i",venda->selecao[i].produto.estoque);
+		printf("\n PRECO      : %.2f",venda->selecao[i].produto.preco);
+		printf("\n QUANTIDADE : %i",venda->selecao[i].quantidade);
 	}
-	printf("\n\n VALOR TOTAL: %.2f",venda->total);
-	printf("\n DATA VENDA: 23/11/2020");
+	printf("\n\n VALOR TOTAL : %.2f",venda->total);
+	printf("\n DATA VENDA  : 23/11/2020");
 	if(venda->pagamento == 0){
 		printf("\n\n Pagamento pendente \n");
 	}else{
